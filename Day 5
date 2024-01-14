@@ -1,0 +1,23 @@
+def find_max_min(lst):
+    if not lst:
+        return None, None  # Return None for both max and min if the list is empty
+
+    # Remove any commas and split the input string into a list of numbers
+    lst = [int(num) for num in lst.replace(',', ' ').split()]
+
+    max_val = min_val = lst[0]  # Assume the first element as both max and min initially
+
+    for num in lst:
+        if num > max_val:
+            max_val = num
+        elif num < min_val:
+            min_val = num
+
+    return max_val, min_val
+
+# Example usage:
+input_numbers = input("Enter a list of numbers separated by spaces or commas: ")
+max_value, min_value = find_max_min(input_numbers)
+
+print("Maximum value:", max_value)
+print("Minimum value:", min_value)
