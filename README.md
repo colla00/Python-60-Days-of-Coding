@@ -6,3 +6,4 @@ Participating in the Women Who Code's Python 60 Days of Coding Challenge
 3. Write a function to count the number of vowels in a given string.
 4. Write a program to find the sum of all elements in a list.
 5. Write a program to find the maximum and minimum values in a list.
+6. Write a program to count the occurrences of a specific character in a string.
