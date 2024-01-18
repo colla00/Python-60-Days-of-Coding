@@ -1,0 +1,25 @@
+def count_upper_lower(sentence):
+    # Initialize counters
+    upper_count = 0
+    lower_count = 0
+    
+    # Iterate through each character in the sentence
+    for char in sentence:
+        # Check if the character is uppercase
+        if char.isupper():
+            upper_count += 1
+        # Check if the character is lowercase
+        elif char.islower():
+            lower_count += 1
+    
+    # Return the counts as a tuple
+    return upper_count, lower_count
+
+# Get input sentence from the user
+input_sentence = input("Enter a sentence: ")
+
+# Call the function with the input sentence
+result = count_upper_lower(input_sentence)
+
+# Display the result
+print(f"Uppercase count: {result[0]}, Lowercase count: {result[1]}")
