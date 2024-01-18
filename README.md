@@ -8,3 +8,4 @@ Participating in the Women Who Code's Python 60 Days of Coding Challenge
 5. Write a program to find the maximum and minimum values in a list.
 6. Write a program to count the occurrences of a specific character in a string.
 7. Write a program to check if a number is positive, negative, or zero.
+8. Write a function that accepts a string and calculates the number of uppercase and lowercase letters in it.
