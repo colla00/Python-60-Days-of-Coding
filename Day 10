@@ -1,0 +1,26 @@
+import re
+
+def remove_duplicates(input_list):
+    # Use a set to store unique elements
+    unique_elements = set()
+
+    # Iterate through the list and add each element to the set
+    for element in input_list:
+        unique_elements.add(element)
+
+    # Convert the set back to a list (order may not be preserved)
+    result_list = list(unique_elements)
+
+    return result_list
+
+# Take user input for the list
+user_input = input("Enter elements of the list separated by spaces or commas: ")
+
+# Split the input using either spaces or commas as separators
+user_list = [int(x) for x in re.split(',|\s', user_input) if x]
+
+# Call the function with the user's list
+result = remove_duplicates(user_list)
+
+# Display the result
+print("List with duplicates removed:", result)
