@@ -11,3 +11,4 @@ Participating in the Women Who Code's Python 60 Days of Coding Challenge
 8. Write a function that accepts a string and calculates the number of uppercase and lowercase letters in it.
 9. Write a program to check if a number is even or odd.
 10. Write a program to remove duplicates from a list.
+11. Write a program to print the multiplication table of a given number.
