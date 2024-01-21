@@ -12,3 +12,4 @@ Participating in the Women Who Code's Python 60 Days of Coding Challenge
 9. Write a program to check if a number is even or odd.
 10. Write a program to remove duplicates from a list.
 11. Write a program to print the multiplication table of a given number.
+12. Write a program to reverse a given string.
