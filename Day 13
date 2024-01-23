@@ -1,0 +1,16 @@
+import random
+
+def shuffle_list(input_list):
+    shuffled_list = input_list.copy()
+    random.shuffle(shuffled_list)
+    return shuffled_list
+
+# Get user input for a list of elements
+user_input = input("Enter elements of the list separated by spaces or commas: ")
+user_list = [int(item) for item in user_input.replace(',', ' ').split()]
+
+# Example usage:
+shuffled_result = shuffle_list(user_list)
+
+print("Original List:", user_list)
+print("Shuffled List:", shuffled_result)
