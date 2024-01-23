@@ -1,0 +1,19 @@
+def fibonacci(n):
+    fib_sequence = [0, 1]
+
+    while len(fib_sequence) < n:
+        next_number = fib_sequence[-1] + fib_sequence[-2]
+        fib_sequence.append(next_number)
+
+    return fib_sequence[:n]
+
+# Take user input for the number of Fibonacci numbers
+try:
+    n = int(input("Enter the number of Fibonacci numbers to print: "))
+    if n <= 0:
+        print("Please enter a positive integer.")
+    else:
+        result = fibonacci(n)
+        print(f"The first {n} numbers of the Fibonacci sequence are: {result}")
+except ValueError:
+    print("Invalid input. Please enter a valid integer.")
