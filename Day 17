@@ -1,0 +1,8 @@
+def capitalize_words():
+    sentence = input("Enter a sentence: ")
+    capitalized_sentence = sentence.title()
+    return capitalized_sentence
+
+# Call the function and display the result
+capitalized_sentence = capitalize_words()
+print("Capitalized Sentence:", capitalized_sentence)
