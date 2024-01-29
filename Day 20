@@ -1,0 +1,19 @@
+def filter_even_numbers(input_str):
+    """
+    Takes a string of numbers separated by spaces or commas and returns a list containing only the even numbers.
+
+    :param input_str: String of numbers separated by spaces or commas.
+    :return: List of even numbers.
+    """
+    # Splitting the input string by spaces and commas
+    numbers = [int(num) for num in input_str.replace(',', ' ').split()]
+    
+    # Filtering even numbers
+    even_numbers = [num for num in numbers if num % 2 == 0]
+    
+    return even_numbers
+
+# Interactive input
+input_str = input("Enter numbers separated by spaces or commas: ")
+even_numbers = filter_even_numbers(input_str)
+print("Even numbers:", even_numbers)
