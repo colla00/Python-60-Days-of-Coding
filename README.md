@@ -20,3 +20,4 @@ Participating in the Women Who Code's Python 60 Days of Coding Challenge
 17. Create a program that capitalizes the first letter of each word in a sentence.
 18. Create a program to find the largest among three numbers.
 19. Write a function to calculate the factorial of a number.
+20. Write a function that takes a list of numbers and returns a new list containing only the even numbers.
