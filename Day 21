@@ -1,0 +1,32 @@
+def remove_element_from_set(s, element):
+    try:
+        s.remove(element)
+        print(f"Element '{element}' removed from the set.")
+    except KeyError:
+        print(f"Element '{element}' not found in the set.")
+
+# Function to convert a space or comma-separated string to a set of integers
+def convert_to_set(input_string):
+    try:
+        # Splitting by comma first, then by space
+        elements = input_string.replace(',', ' ').split()
+        return {int(item) for item in elements}
+    except ValueError:
+        print("Invalid input. Please enter a list of integers separated by spaces or commas.")
+        return None
+
+# Get user input for the set
+input_set = input("Enter the elements of the set, separated by spaces or commas: ")
+my_set = convert_to_set(input_set)
+
+if my_set is not None:
+    print("Original Set:", my_set)
+
+    # Get user input for the element to remove
+    element_to_remove = input("Enter the element you want to remove: ")
+    try:
+        element_to_remove = int(element_to_remove)
+        remove_element_from_set(my_set, element_to_remove)
+        print("Set after removal:", my_set)
+    except ValueError:
+        print("Please enter a valid integer.")
