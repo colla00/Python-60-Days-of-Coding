@@ -1,0 +1,8 @@
+def remove_vowels(s):
+    vowels = "aeiouAEIOU"
+    return "".join([char for char in s if char not in vowels])
+
+# Prompting user for input
+user_input = input("Enter a string: ")
+result = remove_vowels(user_input)
+print("String after removing vowels:", result)
