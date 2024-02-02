@@ -23,3 +23,4 @@ Participating in the Women Who Code's Python 60 Days of Coding Challenge
 20. Write a function that takes a list of numbers and returns a new list containing only the even numbers.
 21. Create a program to remove a specific element from a set.
 22. Write a program that checks if a key exists in a dictionary.
+23. Write a program to remove vowels from a given string.
