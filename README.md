@@ -24,3 +24,5 @@ Participating in the Women Who Code's Python 60 Days of Coding Challenge
 21. Create a program to remove a specific element from a set.
 22. Write a program that checks if a key exists in a dictionary.
 23. Write a program to remove vowels from a given string.
+24. Write a program to remove vowels from a given string.
+25. Create a program to concatenate two lists.
