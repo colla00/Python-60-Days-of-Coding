@@ -26,3 +26,4 @@ Participating in the Women Who Code's Python 60 Days of Coding Challenge
 23. Write a program to remove vowels from a given string.
 24. Write a program to remove vowels from a given string.
 25. Create a program to concatenate two lists.
+26. Create a program that uses a lambda function to square each element of a list.
