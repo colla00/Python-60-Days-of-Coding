@@ -1,0 +1,12 @@
+# Function to sort a list of strings alphabetically
+def sort_strings_alphabetically(input_list):
+    sorted_list = sorted(input_list)
+    return sorted_list
+
+# Input a list of strings from the user separated by spaces or commas
+if __name__ == "__main__":
+    input_string = input("Enter a list of strings separated by spaces or commas: ")
+    input_list = input_string.replace(",", " ").split()
+    sorted_list = sort_strings_alphabetically(input_list)
+    print("Original List:", input_list)
+    print("Sorted List:", sorted_list)
