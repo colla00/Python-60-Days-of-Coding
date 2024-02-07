@@ -1,0 +1,25 @@
+def remove_nth_element(lst, n):
+    if n < 0 or n >= len(lst):
+        print("Invalid index. The list remains unchanged.")
+        return lst
+
+    del lst[n]
+    return lst
+
+# Function to get user input for a list of numbers separated by space or comma
+def get_number_list_input():
+    input_str = input("Enter a list of numbers separated by space or comma: ")
+    input_str = input_str.replace(",", " ")  # Replace commas with spaces
+    try:
+        numbers = list(map(float, input_str.split()))
+        return numbers
+    except ValueError:
+        print("Invalid input. Please enter numbers separated by space or comma.")
+        return get_number_list_input()
+
+# Example usage:
+my_list = get_number_list_input()
+n = int(input("Enter the index of the element to remove: "))
+
+result = remove_nth_element(my_list, n)
+print("List after removing the {}th element: {}".format(n, result))
