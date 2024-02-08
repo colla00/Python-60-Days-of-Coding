@@ -1,0 +1,20 @@
+import random
+
+def generate_random_number(min_val, max_val):
+    """
+    Generate a random number within the given range [min_val, max_val].
+    
+    Args:
+    min_val (int): The minimum value of the range (inclusive).
+    max_val (int): The maximum value of the range (inclusive).
+    
+    Returns:
+    int: A random number within the specified range.
+    """
+    return random.randint(min_val, max_val)
+
+# Example usage:
+min_val = 1
+max_val = 100
+random_number = generate_random_number(min_val, max_val)
+print("Random number between", min_val, "and", max_val, ":", random_number)
