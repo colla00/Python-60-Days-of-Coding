@@ -1,0 +1,21 @@
+def second_smallest(lst):
+    if len(lst) < 2:
+        return "List must have at least two elements"
+    
+    smallest = float('inf')
+    second_smallest = float('inf')
+    
+    for num in lst:
+        if num < smallest:
+            second_smallest = smallest
+            smallest = num
+        elif num < second_smallest and num != smallest:
+            second_smallest = num
+            
+    return second_smallest
+
+# Take input from the user
+input_list = input("Enter elements of the list separated by spaces: ")
+input_list = list(map(int, input_list.split()))
+
+print("Second smallest element:", second_smallest(input_list))
