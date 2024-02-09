@@ -30,3 +30,4 @@ Participating in the Women Who Code's Python 60 Days of Coding Challenge
 27. Create a program that sorts a list of strings alphabetically.
 28. Create a program that removes the nth element from a list.
 29. Create a function that generates a random number between a given range.
+30. Create a function that finds the second smallest element in a list.
