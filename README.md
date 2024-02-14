@@ -35,3 +35,4 @@ Participating in the Women Who Code's Python 60 Days of Coding Challenge
 32. Create a function that calculates the average of a list of numbers.
 33. Write a test case for a function that checks if a number is prime.
 34. Write a Python program to merge two dictionaries.
+35. Write a simple unit test for a function that adds two numbers.
