@@ -37,3 +37,4 @@ Participating in the Women Who Code's Python 60 Days of Coding Challenge
 34. Write a Python program to merge two dictionaries.
 35. Write a simple unit test for a function that adds two numbers.
 36. Write a Python program to check if two strings are anagrams.
+37. Write a program to iterate through a dictionary and print its keys and values.
