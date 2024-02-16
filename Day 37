@@ -1,0 +1,10 @@
+# Sample dictionary
+my_dict = {
+    "apple": 5,
+    "banana": 3,
+    "orange": 7
+}
+
+# Iterating through the dictionary and printing keys and values
+for key, value in my_dict.items():
+    print(f"Key: {key}, Value: {value}")
