@@ -1,0 +1,16 @@
+from collections import Counter
+import re
+
+def most_common_words(file_path, num_words):
+    with open(file_path, 'r') as file:
+        text = file.read().lower()
+        words = re.findall(r'\b\w+\b', text)
+        word_counts = Counter(words)
+        return word_counts.most_common(num_words)
+
+file_path = 'your_text_file.txt'
+num_words = 10  # Change this to get a different number of most common words
+common_words = most_common_words(file_path, num_words)
+print(f"The {num_words} most common words are:")
+for word, count in common_words:
+    print(f"{word}: {count}")
