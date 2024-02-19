@@ -1,0 +1,24 @@
+def permutations(lst):
+    if len(lst) == 0:
+        return [[]]  # Base case: empty list has one permutation, the empty list
+    else:
+        all_perms = []
+        for i in range(len(lst)):
+            first_elem = lst[i]
+            rest = lst[:i] + lst[i+1:]
+            perms_of_rest = permutations(rest)
+            for perm in perms_of_rest:
+                all_perms.append([first_elem] + perm)
+        return all_perms
+
+def input_list():
+    user_input = input("Enter a list of numbers separated by spaces or commas: ")
+    lst = user_input.replace(",", " ").split()  # Replace commas with spaces and split
+    lst = [int(x) for x in lst]  # Convert elements to integers
+    return lst
+
+# Example usage:
+my_list = input_list()
+print("Permutations of", my_list, "are:")
+for perm in permutations(my_list):
+    print(perm)
