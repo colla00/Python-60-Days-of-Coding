@@ -41,3 +41,4 @@ Participating in the Women Who Code's Python 60 Days of Coding Challenge
 38. Write a program to flatten a nested list.
 39. Write a program to find the most common words in a text file.
 40. Write a program that uses recursion to generate all permutations of a list.
+41. Write a program that uses a try-except block to handle division by zero.
