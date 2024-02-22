@@ -1,0 +1,16 @@
+def read_integer():
+    while True:
+        user_input = input("Please enter an integer: ")
+        try:
+            value = int(user_input)
+            print(f"Thank you for entering the integer: {value}")
+            return value  # Return the integer value
+        except ValueError:
+            print("Invalid input. That's not an integer. Please try again.")
+
+def main():
+    integer = read_integer()
+    print("The integer you entered is:", integer)
+
+if __name__ == "__main__":
+    main()
