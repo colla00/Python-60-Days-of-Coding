@@ -1,0 +1,12 @@
+def remove_whitespace(input_string):
+    return input_string.replace(" ", "")
+
+# Take user input
+input_string = input("Enter a string: ")
+
+# Call the function to remove whitespaces
+result = remove_whitespace(input_string)
+
+# Display the result
+print("Original string:", input_string)
+print("String with whitespaces removed:", result)
