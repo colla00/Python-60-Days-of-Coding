@@ -46,3 +46,4 @@ Participating in the Women Who Code's Python 60 Days of Coding Challenge
 43. Write a program that removes all whitespaces from a given string.
 44. Write a program that reads an integer from the user and handles invalid inputs.
 45. Write a function to check if a number is a prime number.
+46. Write a function to check if a given list is sorted.
