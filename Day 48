@@ -1,0 +1,21 @@
+def replace_with_synonyms(text):
+    synonyms_dict = {
+        "quick": ["fast", "speedy"],
+        "brown": ["dark", "brunette"],
+        "lazy": ["inactive", "sluggish"]
+    }
+    words = text.split()
+    for i, word in enumerate(words):
+        if word in synonyms_dict:
+            synonyms = synonyms_dict[word]
+            if synonyms:
+                replacement = synonyms[0]  # Choose the first synonym as replacement
+                words[i] = replacement
+    return ' '.join(words)
+
+# Example text
+text = "The quick brown fox jumps over the lazy dog"
+
+# Replace words with synonyms
+new_text = replace_with_synonyms(text)
+print(new_text)
