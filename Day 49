@@ -1,0 +1,17 @@
+def get_input_array():
+    while True:
+        user_input = input("Enter the elements of the array separated by space or commas: ")
+        # Split input by space or comma
+        arr = [x.strip() for x in user_input.replace(',', ' ').split()]
+        try:
+            arr = [int(x) for x in arr]
+            return arr
+        except ValueError:
+            print("Please enter valid integers only.")
+
+# Example usage:
+if __name__ == "__main__":
+    arr = get_input_array()
+    print("Original array:", arr)
+    bubble_sort(arr)
+    print("Sorted array:", arr)
