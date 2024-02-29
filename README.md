@@ -50,3 +50,4 @@ Participating in the Women Who Code's Python 60 Days of Coding Challenge
 47. Create a program that imports the math module and uses its functions.
 48. Create a program that replaces specific words in a text with their synonyms.
 49. Create a program that implements the bubble sort algorithm.
+50. Create a program that finds the intersection and union of two sets.
