@@ -52,3 +52,4 @@ Participating in the Women Who Code's Python 60 Days of Coding Challenge
 49. Create a program that implements the bubble sort algorithm.
 50. Create a program that finds the intersection and union of two sets.
 51. Create a program that counts the occurrences of each word in a text file.
+52. Create a program that checks if a string is a palindrome.
