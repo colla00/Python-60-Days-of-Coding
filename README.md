@@ -54,3 +54,4 @@ Participating in the Women Who Code's Python 60 Days of Coding Challenge
 51. Create a program that counts the occurrences of each word in a text file.
 52. Create a program that checks if a string is a palindrome.
 53. Create a program that allows users to draw on a canvas using a GUI.
+54. Create a function to find all words in a sentence that start with a vowel.
