@@ -1,0 +1,9 @@
+import re
+
+def words_starting_with_vowel(sentence):
+    pattern = r'\b[aeiouAEIOU]\w*\b'
+    return re.findall(pattern, sentence)
+
+sentence = input("Enter a sentence: ")
+vowel_words = words_starting_with_vowel(sentence)
+print("Words starting with a vowel:", vowel_words)
