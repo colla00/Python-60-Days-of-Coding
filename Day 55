@@ -1,0 +1,8 @@
+def reverse_words_input():
+    input_string = input("Enter a string: ")
+    words = input_string.split()
+    reversed_words = [word[::-1] for word in words]
+    return ' '.join(reversed_words)
+
+# Example usage
+print(reverse_words_input())
