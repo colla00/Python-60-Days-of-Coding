@@ -1,0 +1,8 @@
+def key_with_max_value(d):
+    if not d:
+        return None
+    return max(d, key=d.get)
+
+# Example usage
+my_dict = {'a': 10, 'b': 5, 'c': 20}
+print(key_with_max_value(my_dict))  # Output: 'c'
