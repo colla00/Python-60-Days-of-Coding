@@ -57,3 +57,4 @@ Participating in the Women Who Code's Python 60 Days of Coding Challenge
 54. Create a function to find all words in a sentence that start with a vowel.
 55. Create a function that takes a string and returns the reverse of each word.
 56. Create a function to extract all URLs from a given text using regular expressions.
+57. Create a function that returns the key with the maximum value in a dictionary.
