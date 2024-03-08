@@ -1,0 +1,12 @@
+def safe_string_to_int(s):
+    try:
+        return int(s)
+    except ValueError:
+        return None
+
+# Example usage
+string_num = "123"
+print(safe_string_to_int(string_num))  # Output: 123
+
+string_not_num = "abc"
+print(safe_string_to_int(string_not_num))  # Output: None
