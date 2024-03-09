@@ -59,3 +59,4 @@ Participating in the Women Who Code's Python 60 Days of Coding Challenge
 56. Create a function to extract all URLs from a given text using regular expressions.
 57. Create a function that returns the key with the maximum value in a dictionary.
 58. Create a function that converts a string to an integer and handles ValueError.
+59. Create a function that checks if a number is a perfect square.
