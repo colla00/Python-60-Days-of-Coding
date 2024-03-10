@@ -22,8 +22,8 @@ Participating in the Women Who Code's Python 60 Days of Coding Challenge
 19. Write a function to calculate the factorial of a number.
 20. Write a function that takes a list of numbers and returns a new list containing only the even numbers.
 21. Create a program to remove a specific element from a set.
-22. Write a program that checks if a key exists in a dictionary.
-23. Write a program to remove vowels from a given string.
+22. Create a program to find the second-largest element in a list.
+23. Write a program that checks if a key exists in a dictionary.
 24. Write a program to remove vowels from a given string.
 25. Create a program to concatenate two lists.
 26. Create a program that uses a lambda function to square each element of a list.
